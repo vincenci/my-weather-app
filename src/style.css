@@ -1,6 +1,8 @@
 body{
     background: #ebe1ee;
-    font-family: "Roboto", sans-serif;       
+    font-family: "Roboto", sans-serif;
+    font-style: normal; 
+    font-weight: 500;      
 }
 form{
     border-bottom: 1px solid #ebe1ee;
