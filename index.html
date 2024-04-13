@@ -16,7 +16,8 @@
     <div class="my-weather-app">
    <header>
     <form  id="search-form">
-        <input type="text" placeholder="Enter your city"
+        <input type="text" placeholder="Enter your city"required
+
         class="search-city"
         id="search-city">
         <input type="submit" value="Search" class="submit-city">
@@ -24,14 +25,14 @@
    </header>
    <main>
     <div>
-    <h1 id="city">Paris</h1>
-    <p class="weather-details"><span id="date">Friday 12 17:04</span> , <span id="description">Broken clouds</span> <br>
+    <h1 id="city"></h1>
+    <p class="weather-details"><span id="date"></span> , <span id="description"></span> <br>
     Humidity: <strong><span id="humidity"></span></span> %</strong> , Windspeed: <strong><span id="wind"></span></span>km/h</strong>
     </p>
     </div>
     <div class="temperature-details">
     <div class="icon" id="icon"></div>
-    <div class="temperature" id="temperature">18</div>
+    <div class="temperature" id="temperature"></div>
     <div class="units">℃</div>
     </div>
    </main>
