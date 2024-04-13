@@ -56,17 +56,18 @@ a{
 }
 .temperature-details{
     display: flex;
-    padding-top: 30px;
+    
     
 }
 .icon{
     font-size: 48px;
 }
 .temperature{
-    font-size: 48px;
+    font-size: 70px;
     font-weight: bold;
 }
 .units{
     font-size: 28px;
+    padding-top: 16px;
 }
 
