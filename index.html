@@ -14,15 +14,16 @@
 <body>
     <div class="my-weather-app">
    <header>
-    <form >
+    <form  id="search-form">
         <input type="text" placeholder="Enter your city"
-        class="search-city">
+        class="search-city"
+        id="search-city">
         <input type="submit" value="Search" class="submit-city">
     </form>
    </header>
    <main>
     <div>
-    <h1>Paris</h1>
+    <h1 id="city">Paris</h1>
     <p class="weather-details">Friday 12 17:04 , Broken clouds <br>
     Humidity: <strong>65%</strong> , Windspeed: <strong>2km/h</strong>
     </p>
@@ -37,5 +38,6 @@
     This project was coded by <a href="#">Vincencia</a> is <a href="#">opensourced on Github</a> and <a href="#">hosted on Netlify</a>
    </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 </html>
